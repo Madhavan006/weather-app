@@ -24,7 +24,7 @@ function getWeather() {
         .then(response => response.json())
         .then(data => {
              if (data.cod === '404') {
-            alert('City not found for forecast.');
+            alert('City not found for forecast now.');
             return;
         }
             displayHourlyForecast(data.list);
