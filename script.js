@@ -23,6 +23,10 @@ function getWeather() {
     fetch(forecastUrl)
         .then(response => response.json())
         .then(data => {
+             if (data.cod === '404') {
+            alert('City not found for forecast.');
+            return;
+        }
             displayHourlyForecast(data.list);
         })
         .catch(error => {
