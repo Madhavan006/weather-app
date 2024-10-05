@@ -14,9 +14,7 @@ Check out the live version of the Weather App https://weatherdisplayer.netlify.a
 
 - **Weather Icons & Dynamic Backgrounds**: Visually represent the current weather with aesthetic backgrounds that change according to the weather type (sunny, cloudy, rainy, snowy).
 
-- **Temperature Display**: View temperatures in Celsius or Fahrenheit.
-
-- **Responsive Design**: Fully optimized for mobile and desktop devices.
+- **Temperature Display**: View temperatures in Celsius 
 
 ## Technologies Used:
 
